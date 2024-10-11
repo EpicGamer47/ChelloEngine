@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-17">
+		<attributes>
+			<attribute name="module" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="lib" path="lib/core.jar"/>
+	<classpathentry kind="lib" path="lib/sound stuff/jlayer-1.0.1.4.jar"/>
+	<classpathentry kind="lib" path="lib/sound stuff/jorbis-0.0.17.4.jar"/>
+	<classpathentry kind="lib" path="lib/sound stuff/jportaudio.jar"/>
+	<classpathentry kind="lib" path="lib/sound stuff/jsyn-17.1.0.jar"/>
+	<classpathentry kind="lib" path="lib/sound stuff/mp3spi-1.9.5.4.jar"/>
+	<classpathentry kind="lib" path="lib/sound stuff/sound.jar"/>
+	<classpathentry kind="lib" path="lib/sound stuff/tritonus-share-0.3.7.4.jar"/>
+	<classpathentry kind="lib" path="lib/sound stuff/vorbisspi-1.0.3.3.jar"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.junit.JUNIT_CONTAINER/5"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>

@@ -1,0 +1,72 @@
+load image /assets/dubai.jpg
+load image /assets/black.jpg
+
+load image /assets/heart.png
+load image /assets/interrobang.png
+load image /assets/triumph.png
+load image /assets/angry.png
+load image /assets/devilish.png
+load image /assets/crown2.png
+load image /assets/smirk.png
+
+setBackdrop image /assets/black.jpg
+math set accum 0
+setupOver
+
+newMessage "" "Duncan got rizzed by Macbeth, but then he had to dip."
+
+char add Manny fatass
+char add Hajjar normal
+
+char addEffect Manny boom 285 1.1 /assets/angry.png a0
+newMessage "Mennox" "I know I keep yapping but things in Dubai have not been so great recently."
+
+newMessage "Mennox" "Duncan got rizzed by Macbeth, but then he had to dip."
+
+newMessage "Mennox" "Then, our habibi Banqowdh went out too late and the opps hit."
+
+newMessage "Mennox" "What did bro do to deserve this treatment 😭😭😭"
+
+char addEffect Hajjar boom 40 1.1 /assets/triumph.png a0
+newMessage "Lord Hajjar" "smh smh can't an arab take a walk nowadays?"
+
+char addEffect Manny boom 260 1.1 /assets/angry.png a0
+newMessage "Mennox" "All these fake arabs say that Flouansh murked him, that he ran away like a non-arab"
+
+newMessage "Mennox" "He cant even beat the allegations since he left Dubai"
+
+newMessage "Mennox" "But why would he get rid of Banqowdh right after Malkom and Duunalban? Why is everyone trying to be fatherless rn? Mashallah..."
+
+char addEffect Hajjar boom 155 1.1 /assets/crown2.png a0
+newMessage "Lord Hajjar" "Macbeth was so sad about his king's death too. This guy even went off on his two guards in revenge!?" 
+
+newMessage "Lord Hajjar" "hear me out bro might be out there, but he actually solos"
+
+char addEffect Manny boom 85 1.1 /assets/devilish.png a0
+newMessage "Mennox" "If any of those arabs pull up to Macbeth's Dubai, it's not going to end well 😈"
+
+char addEffect Hajjar boom 50 1.1 /assets/interrobang.png 80
+newMessage "Lord Hajjar" "nah but fr tho what happened to my habibi Macdallouff?"
+
+char addEffect Manny boom 95 1.1 /assets/smirk.png a0
+newMessage "Mennox" "Macdallouff? He went out to Iraq to get support from King Idward."
+
+newMessage "Mennox" "He wants to attack Macbeth directly."
+
+char addEffect Hajjar boom 60 1.1 /assets/interrobang.png 80
+newMessage "Lord Hajjar" "thats so valid but does Macbeth care about that at all? i think he would, no cap"
+
+char addEffect Manny boom 120 1.1 /assets/triumph.png a0
+newMessage "Mennox" "Yeah, he told Macdallouff to come to his castle ASAP but he just got left on read."
+
+newMessage "Mennox" "Bro really does not care"
+
+char addEffect Hajjar boom 20 1.1 /assets/devilish.png a0
+newMessage "Lord Hajjar" "may Macbeth be overthrown inshallah"
+
+char addEffect Manny boom 75 1.1 /assets/heart.png 80
+newMessage "Mennox" "Inshallah, brother."
+
+exit
+
+/"chris", "I LOVE THE METS!!"

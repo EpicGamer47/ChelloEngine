@@ -1,0 +1,32 @@
+load image /assets/Class.png
+load image /assets/House2.jpg
+
+load image /assets/heart.png
+load image /assets/unsmile_face.png
+load sound /music/beep.mp3
+
+setBackdrop image /assets/House2.jpg
+math set accum 0
+/rollText true
+setupOver
+
+char add Hassan normal
+
+newVoice "Hassan" line /music/beep.mp3
+newMessage "Hassan" "i love sucking feet"
+
+char addEffect Hassan fade 10 feet 00 ff
+char addEffect Hassan scale 10 0.1 0.0
+char addEffect Hassan scale 5 0.0 0.2
+
+newQuestion "Hassan" "can i suck your feet" "ok" "fuck off" "ew" "yes hassy daddy"
+
+newQuestion "Hassan" "can i suck your feet" "ok" "fuck off" "ew"
+
+/newMessage "Hassan" "i love sucking feet"
+
+newQuestion "Hassan" "can i suck your feet" "ok" "fuck off"
+
+exit
+
+/"chris", "I LOVE THE METS!!"

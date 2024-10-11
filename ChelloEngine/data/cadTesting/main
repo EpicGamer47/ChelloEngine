@@ -1,0 +1,21 @@
+load image /assets/Class.png
+load image /assets/House2.jpg
+
+load image /assets/heart.png
+load image /assets/unsmile_face.png
+
+setBackdrop image /assets/House2.jpg
+math set accum 0
+setupOver
+
+char add Hassan normal
+
+newMessage "Hassan" "i love sucking feet"
+char addEffect Hassan fade 10 feet 00 ff
+char addEffect Hassan scale 10 0.1
+
+newMessage "Hassan" "let me suck your feet"
+
+exit
+
+/"chris", "I LOVE THE METS!!"

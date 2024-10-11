@@ -1,0 +1,29 @@
+load image /assets/Class.png
+load image /assets/House2.jpg
+
+load image /assets/heart.png
+load image /assets/unsmile_face.png
+load sound /music/shutup.mp3
+load sound /music/urfat.mp3
+
+setBackdrop image /assets/House2.jpg
+math set accum 0
+/rollText true
+
+setupOver
+
+char add Hassan normal
+
+newVoice "Hassan" line /music/shutup.mp3
+newMessage "Hassan" "shut up manny"
+
+char emote Hassan feet
+char effect Hassan scale 5 .1 0.0
+char effect Hassan scale 5 0.0 0.05
+
+newVoice "Hassan" line /music/urfat.mp3
+newMessage "Hassan" "youre fat"
+
+exit
+
+/"chris", "I LOVE THE METS!!"

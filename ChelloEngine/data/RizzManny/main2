@@ -1,0 +1,23 @@
+load image /data/Class.png
+load image /data/House2.jpg
+
+load image /data/heart.png
+load image /data/unsmile_face.png
+
+setBackdrop image /data/House2.jpg
+char add Manny fatass
+math set accum 0
+setupOver
+
+char add Chris walter
+
+newMessage "Walter White" "Who are you talking to right now?" question
+awaitKeyPress
+math addKey accum
+
+exit
+
+
+exit
+
+/"chris", "I LOVE THE METS!!"

@@ -1,0 +1,104 @@
+load image /assets/Class.png
+load image /assets/House2.jpg
+
+load image /assets/heart.png
+load image /assets/unsmile_face.png
+
+setBackdrop image /assets/House2.jpg
+char add Manny fatass
+setupOver
+
+newMessage Manny "Hey beautiful."
+
+newMessage Sasha "Hi?"
+
+newMessage Manny "I couldn't help but notice you live across the street."
+
+newMessage Sasha "You live on the other side of town..."
+
+char addEffect Manny boom 15 1.5 /assets/unsmile_face.png 40
+newMessage Sasha "You snuck on the wheelchair lift in the back of my bus just to come here"
+
+char addEffect Manny boom 45 1.5 /assets/unsmile_face.png 40
+newMessage Sasha "Why should I even talk you?"
+   
+setBackdrop hex 000000
+char removeAll
+
+newMessage "" "Just then, Manny remembered something."
+
+char add Chris sensei
+newMessage Chri-Sensei "Remember your training."
+
+char changeEmotion Chris walter
+newMessage "Walter White" "You must unleash your inner Rizz God®!"
+
+setBackdrop image /assets/House2.jpg
+char removeAll
+
+newMessage "" "I wonder when he'll finally decide to leave me alone..."
+
+newMessage Manny "You're right."
+
+newMessage "" "I can hear a firmness in his voice, when did Manny become so brave?"
+
+newMessage "" "I turn back around towards him..."
+
+newMessage Sasha "Sorry, Wha-"
+
+char add Manny rizz
+flashbang 10
+char addEffect Manny boom 45 1.75 /assets/heart.png 60
+newMessage "" "!!!"
+
+newMessage "" "How is Manny so hot now???"
+
+newMessage Manny "Hey beautiful."
+
+newMessage Sasha "Heyyyy Mannyyy"
+
+newMessage "" "What is happening?"
+
+newMessage Manny "Sorry, 'Manny?' That's a dead name now."
+
+newMessage Sasha "What?"
+
+newMessage Manny "It belonged to someone weak, to someone goofy, to someone without Rizz."
+
+char addEffect Manny boom 45 2.5 /assets/heart.png 20
+newMessage Man "From now on, call me Man."
+
+newMessage "" "I walk up to Man and stroke my finger on his chest."
+char addEffect Manny scale 5 0.02           
+
+newMessage Sasha "You're my man <3"
+
+
+char add Manny rizz
+char addEffect Manny boom 30 1.2 /assets/manny_rizz.png 0xa0
+char addEffect Manny boom 5 2 /assets/heart.png 0x80
+
+setBackdrop image /assets/Class.png
+char removeAll
+char add Chris crackhead
+newMessage Chris "Thank you for reading my story!"
+
+char add Horn smile
+newMessage "Mr. Horn" "You are most welcome!"
+
+char changeEmotion Chris chrizz
+char addEffect Chris boom 45 1.75 /assets/heart.png 60
+newMessage Chrizz "Can I get a 100?"
+
+char addEffect Horn boom 45 1.25 /assets/thumb.png 60
+char changeEmotion Horn thumb
+newMessage "Mr. Horn" "Yes, you can!"
+
+newMessage "Mr. Horn" "Impeccable Rizz, Christopher Bandeli!"
+
+char addEffect Chris boom 45 1.75 /assets/heart.png 60
+newMessage Chrizz "Thank you."
+
+exit
+
+/"chris", "I LOVE THE METS!!"
